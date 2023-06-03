@@ -11,6 +11,9 @@ function myfunc(event) {
    localStorage.setItem('etype', etype);
    localStorage.setItem('cat', cat);
 
+   localStorage.getItem('amount', amount);
+   localStorage.getItem('etype', etype);
+   localStorage.getItem('cat', cat);
 
 
    const obj = {
